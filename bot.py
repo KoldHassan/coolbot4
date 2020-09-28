@@ -25,7 +25,7 @@ async def Hello(ctx):
 
 # all of the wisdoms
 
-@client.command(name='holmleswisdom', help="Valuable wisdom from momma Shelly Holmes herself")
+@client.command(name='holmeswisdom', help="Valuable wisdom from momma Shelly Holmes herself")
 async def holmeswisdom(ctx, number: int = 1):
     i = 0
     while i < number:
